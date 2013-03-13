@@ -23,7 +23,7 @@ class SilverStripeWkHtmlToPdfTemplateHelper extends ViewableData
 
 }
 
-class SilverStripeWkHtmlToPdfTemplateHelper_ImageExtension extends DataObjectDecorator
+class SilverStripeWkHtmlToPdfTemplateHelper_ImageExtension extends DataExtension
 {
 
     public function extraStatics()

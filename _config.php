@@ -1,6 +1,6 @@
 <?php
 
-Director::addRules(70, array(
+Director::addRules(100, array(
 	SilverStripeWkHtmlToPdfController::$url_segment . '//$Action/$ID/$OtherID' => 'SilverStripeWkHtmlToPdfController'
 ));
 
